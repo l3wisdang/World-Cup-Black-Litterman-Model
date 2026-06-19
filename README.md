@@ -5,7 +5,9 @@
 **A statistical World Cup model you can impose your own football judgement on, using the Black-Litterman framework from portfolio management.**
 Built with Python, pandas, scikit-learn, scipy, Streamlit and Plotly.
 
-🔗 *(live dashboard link goes here once deployed)*
+### 🔗 [**Try the live interactive dashboard →**](https://ftofp66vce4peravbgfywh.streamlit.app/)
+
+Set your own views, watch the bracket re-forecast live, and compare the model to the betting market. No installation needed.
 
 ---
 
@@ -136,6 +138,8 @@ Stated plainly, because pretending a model is perfect is the fastest way to lose
 - **Average squad age as its own feature.** Captured indirectly through market value, which is age-sensitive, so adding it separately is redundant.
 
 ## 9. Running it
+
+The easiest way is the **[hosted dashboard](https://ftofp66vce4peravbgfywh.streamlit.app/)**, no setup required. To run it locally instead:
 
 ```bash
 pip install -r requirements.txt
